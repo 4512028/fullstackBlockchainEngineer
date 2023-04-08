@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Section 1: Algorithms (10 pt)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Part A) Create a function in javascript / typescript that takes in a big number and converts it into the equivalent english text. Ex. If input was 1234, output must be One thousand, Two hundred, Thirty Four. Solutions must be valid up to 6 digits. Write unit tests to show that your function works.
 
-## Available Scripts
+Part B) Implement a binary search function and write code to run unit tests on the function.
+Section 2: Single-Page-Application (15 pt)
+Build a SPA to get and convert cryptocurrency exchange rates. You can use any open real-time API on the internet to fetch the rates. The Application will consist of three
 
-In the project directory, you can run:
+widgets. The first widget consists of:
 
-### `npm start`
+1. A drop down menu for the user to select the crypto currency they wish to exchange from, also known as the base currency (Ex. Eth)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. A text field for the user to input & read the numerical value of the crypto currency (ex. 2.45 Eth)
+   The second widget will consist of:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. A drop down menu for the user to select the crypto currency they wish to exchange to,
+   also known as the quota currency (Ex. USDT)
 
-### `npm test`
+4. A text field for the user to input and read the numerical value for the crypto currency
+   The third widget will be a read only component to display the exchange rate of the base currency against the quota currency. Ex. 1 ETH = 1,718.53 USDT
+   You are required to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Build the SPA using React or React Native
 
-### `npm run build`
+6. Display the real-time exchange rates of the to and from currencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7. Allow the user to input a value in the base currency text box
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+8. Allow users to input a value in the “to” text box
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+9. User input must be calculated in real-time, that is, the user does not need to click on
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   “Enter’ to see the conversion rate.
+   Look at this reference as a guide: https://app.uniswap.org/#/swap
+   Note:
+   You are not required to swap or exchange the user's tokens. Just display the conversion based on user input. You can limit the token to the top 10 popular tokens in the drop menu if you wish.
+   Marks are awarded based on fulfilled requirements, application performance and structure of code.
+   Bonus marks will be awarded for effort put into the UX/UI design:
+   ● Display loader while values are being calculates (see reference)
+   ● Neat interface and modern appearance
+   ● Responsiveness of design
