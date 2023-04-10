@@ -1,11 +1,13 @@
-Section 1: Algorithms (10 pt)
+2: Single-Page-Application (15 pt)
 
-Part A) Create a function in javascript / typescript that takes in a big number and converts it into the equivalent english text. Ex. If input was 1234, output must be One thousand, Two hundred, Thirty Four. Solutions must be valid up to 6 digits. Write unit tests to show that your function works.
 
+<<<<<<< HEAD
 Part B) Implement a binary search function and write code to run unit tests on the function.
 Section
 
 2: Single-Page-Application (15 pt)
+=======
+>>>>>>> d5b237a1893b6b12744e8feb83d2969eaeaa088c
 Build a SPA to get and convert cryptocurrency exchange rates. You can use any open real-time API on the internet to fetch the rates. The Application will consist of three
 
 widgets. The first widget consists of:
