@@ -21,3 +21,26 @@ Build a SPA to get and convert cryptocurrency exchange rates. You can use any op
 8. Allow users to input a value in the “to” text box
 9. User input must be calculated in real-time, that is, the user does not need to click on
    “Enter’ to see the conversion rate.
+
+Section 3: UI/UX Design and REST API (20 pt)
+Part A) Implement the following figma ( https://www.figma.com/file/6RVhexj5M6uQiFovFRrHHL/Full-stack-Hiring-task?t=KYHqdUF3qJCNUJwZ-1 ) design using React. Marks will be awarded based on use
+of reusable components, accuracy, attention to details and skills transforming design to code.
+Note: You will have to sign up for figma to view design specifications such as color code and paddings.
+
+Part B) Bring the search widget of your implementation to life.
+
+1. Create a project using ASP.NET
+2. Populate DB with the following venue types:
+   a. Football Field
+   b. Tennis Court
+   c. Basketball Court
+3. Populate DB with list of countries.
+4. Create REST API to send the lists to the venue type field and location field respectively.
+5. Use a reusable widget to display dates in the date field.
+6. Users must be able to type a subphase into the venue field and see the possible options.
+   Ex. if user types “ball” they should see options (a) and (b) appear. You must not implement this feature from scratch and find reusable components or libraries.
+   Note: You are not required to implement the search functionality. Just the search field logic.
+   Marks will be rewarded as follows:
+7. Fulfillment of requirements
+8. Structure and cleanliness of code
+9. Field dynamics.
